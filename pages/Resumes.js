@@ -1,61 +1,42 @@
 import Head from "next/head";
 import Link from "next/link";
 
-export default function Home() {
+export default function Resumes() {
   return (
     <div className="container">
       <Head>
-        <title>Yamaan Bakir</title>
+        <title>Resumes</title>
         <link rel="icon" href="/profile pic.jpg" />
       </Head>
-
       <main>
-        <h1 className="title">
-          Hi, I'm <a href="">Yamaan Bakir</a>
-        </h1>
-
-        <p className="description">
-          Mechatronics student, self driven learner, robotics enthusiast!
-        </p>
+        <h1 className="title">Resumes</h1>
 
         <div className="grid">
-          <a href="/Resumes" className="card">
-            <h3>Resumes &rarr;</h3>
-            <p>
-              Interested in my experience? Take a look at my past experienecs
-              across the fields of software, electrical and mechanical
-              engineering!
-            </p>
+          <a href="/Website Software Resume.pdf" className="card">
+            <h3>Software &rarr;</h3>
+            <p>Tailored to highlight my experience in software engineering</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Projects &rarr;</h3>
+          <a href="/Website Electrical Resume.pdf" className="card">
+            <h3>Electrical &rarr;</h3>
             <p>
-              Take a look at my list of projects! I've made plenty of things
-              from apps, to PCB's to robotic actuators. <br />
+              Tailored to highlight my experience in electrical engineering
               <br />{" "}
             </p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="/Website Mechanical_Manufacturing Resume.pdf"
             className="card"
           >
-            <h3>Resources &rarr;</h3>
-            <p>🚧 under construction, coming soon!🚧</p>
+            <h3>Mechanical and Manufacturing &rarr;</h3>
+            <p>
+              Tailored to highlight my manufacturing and mechanical engineering
+              experience
+            </p>
           </a>
         </div>
       </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by <img src="/vercel.svg" alt="Vercel" className="logo" />
-        </a>
-      </footer>
 
       <style jsx>{`
         .container {
