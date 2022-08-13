@@ -1,2 +1,1 @@
-# Portfolio-Site
-Personal Portfolio for showcasing personal projects and skills
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).
