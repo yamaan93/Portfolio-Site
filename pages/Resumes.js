@@ -36,8 +36,26 @@ export default function Resumes() {
             </p>
           </a>
         </div>
+        
       </main>
-
+      <footer>
+        <a
+          href="https://github.com/yamaan93"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/github.png" alt="Vercel" className="logo" />
+          &nbsp; yamaan93
+        </a>
+        <a
+          href="https://www.linkedin.com/in/yamaan-bakir/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/linkedin.png" alt="Vercel" className="logo" />
+          &nbsp; yamaan-bakir
+        </a>
+      </footer>
       <style jsx>{`
         .container {
           min-height: 100vh;
@@ -74,6 +92,7 @@ export default function Resumes() {
           display: flex;
           justify-content: center;
           align-items: center;
+          margin: 5em;
         }
 
         a {
@@ -158,7 +177,7 @@ export default function Resumes() {
         }
 
         .logo {
-          height: 1em;
+          height: 2em;
         }
 
         @media (max-width: 600px) {

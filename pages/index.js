@@ -28,7 +28,7 @@ export default function Home() {
             </p>
           </a>
 
-          <a href="https://nextjs.org/learn" className="card">
+          <a href="" className="card">
             <h3>Projects &rarr;</h3>
             <p>
               Take a look at my list of projects! I've made plenty of things
@@ -37,10 +37,7 @@ export default function Home() {
             </p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
+          <a href="" className="card">
             <h3>Resources &rarr;</h3>
             <p>🚧 under construction, coming soon!🚧</p>
           </a>
@@ -49,11 +46,20 @@ export default function Home() {
 
       <footer>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://github.com/yamaan93"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by <img src="/vercel.svg" alt="Vercel" className="logo" />
+          <img src="/github.png" alt="Vercel" className="logo" />
+          &nbsp; yamaan93
+        </a>
+        <a
+          href="https://www.linkedin.com/in/yamaan-bakir/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/linkedin.png" alt="Vercel" className="logo" />
+          &nbsp; yamaan-bakir
         </a>
       </footer>
 
@@ -93,6 +99,7 @@ export default function Home() {
           display: flex;
           justify-content: center;
           align-items: center;
+          margin: 5em;
         }
 
         a {
@@ -177,7 +184,7 @@ export default function Home() {
         }
 
         .logo {
-          height: 1em;
+          height: 2em;
         }
 
         @media (max-width: 600px) {
