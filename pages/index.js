@@ -28,7 +28,7 @@ export default function Home() {
             </p>
           </a>
 
-          <a href="" className="card">
+          <a href="/Portfolio" className="card">
             <h3>Projects &rarr;</h3>
             <p>
               Take a look at my list of projects! I've made plenty of things

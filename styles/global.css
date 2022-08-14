@@ -25,3 +25,20 @@ img {
   max-width: 100%;
   display: block;
 }
+
+.cardLogo{
+  height: 1.5rem;
+  margin-right: 0.5rem;
+  /*display: inline;*/
+}
+.cardTitle{
+  display: flex;
+  align-items: center;
+}
+.card{
+  border: 0.2rem solid black;
+  border-radius: 1rem;
+  padding: 1rem;
+  max-width: 30rem;
+   margin: 1rem;
+}
