@@ -71,6 +71,7 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
+          min-width: 100vw;
         }
 
         main {
@@ -79,7 +80,7 @@ export default function Home() {
           display: flex;
           flex-direction: column;
           justify-content: center;
-          align-items: center;
+          align-items: ;
         }
 
         footer {
