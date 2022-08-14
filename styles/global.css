@@ -42,3 +42,16 @@ img {
   max-width: 30rem;
    margin: 1rem;
 }
+.portfolioImage{
+  display: flex;
+  justify-content: center;
+  height: 10rem;
+  
+}
+
+.portfolioImage img{
+  min-height: 10rem;
+  max-width: 29rem;
+  border-radius: 2rem;
+  padding-bottom: 1rem;
+}
