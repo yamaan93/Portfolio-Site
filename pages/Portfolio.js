@@ -9,6 +9,9 @@ export default function Portfolio() {
         <ProjectCard projectName = "Test Project" img="../supportbot pfp.png">
           the core of this project was shear amazement......................
         </ProjectCard>
+        <ProjectCard projectName = "Test Project" img="../supportbot pfp.png">
+          the core of this project was shear amazement.
+        </ProjectCard>
       </SubjectBox>
       
     </div>
