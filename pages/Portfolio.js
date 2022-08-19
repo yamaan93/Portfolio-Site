@@ -7,9 +7,9 @@ export default function Portfolio() {
   return (
     <div>
       
-      <NavigationBar></NavigationBar>
-      {<SubjectBox subject = "Test">
-        <ProjectCard projectName = "Test Project" img="../supportbot pfp.png">
+      
+      {<SubjectBox subject = "Software">
+        <ProjectCard projectName = "Support Bot" img="../supportbot pfp.png">
           the core of this project was shear amazement......................
         </ProjectCard>
         <ProjectCard  projectName = "Test Project" img="../supportbot pfp.png">
