@@ -2,16 +2,17 @@
 
 Based in React, using Next.js as the framework. Simple Portfolio Site for showcasing my projects!
 
-## Dependencies 
+## Dependencies
 
-* Next.js 
-* React 
-* React-Dom
+- Next.js
+- React
+- React-Dom
+- MUI (Material UI)
 
-**To set up project**: Make sure you have Node.js installed, then clone this repository. In the terminal in the project folder, run the following command to get the project dependancies: 
+**To set up project**: Make sure you have Node.js installed, then clone this repository. In the terminal in the project folder, run the following commands to get the project dependancies:
 
-```npm install next react react-dom```
-
+`npm install next react react-dom`
+`npm install @mui/material @emotion/react @emotion/styled`
 
 Then, in the root directory, Open or create `package.json` and add the following scripts:
 
