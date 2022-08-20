@@ -7,6 +7,7 @@ export default function Home() {
       <Head>
         <title>Yamaan Bakir</title>
         <link rel="icon" href="/profile pic.jpg" />
+        <meta property="og:image" />
       </Head>
 
       <main>

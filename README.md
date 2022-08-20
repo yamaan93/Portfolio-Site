@@ -1,5 +1,7 @@
 # Portfolio Website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a2d903e8-a706-40ca-a3e3-52958e4069c1/deploy-status)](https://app.netlify.com/sites/focused-euclid-9e5cfd/deploys)
+
 Based in React, using Next.js as the framework. Simple Portfolio Site for showcasing my projects!
 
 ## Dependencies
