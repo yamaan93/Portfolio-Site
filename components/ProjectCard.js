@@ -2,7 +2,6 @@ import { Button } from "@mui/material";
 
 export default function ProjectCard(props) {
   return (
-    //TODO: fix width not adjusting correctly
     <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl m-2">
       <div class="md:flex">
         <div class="md:shrink-0">
@@ -25,9 +24,15 @@ export default function ProjectCard(props) {
             Getting a new business off the ground is a lot of hard work. Here
             are five ideas you can use to find your first customers.
           </p>
+          <div className="flex justify-center">
+            <a href={props.link} target="_blank" rel="noopener noreferrer">
+              <button className="rounded-full bg-sky-500 hover:bg-sky-400 p-2 text-white">
+                View Project
+              </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>
   );
-  //TODO:Add view project button
 }
