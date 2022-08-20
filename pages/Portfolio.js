@@ -16,7 +16,7 @@ export default function Portfolio() {
             link="https://github.com/yamaan93/portfolio-site"
           >
             In order to show case my projects, I wanted to create a Portfolio
-            webiste. I took this as an oppourtinty to explore web development.
+            website. I took this as an oppourtinty to explore web development.
             Using react and Next.js I created a dynamic webiste with lots of
             room to grow in the future.
           </ProjectCard>
@@ -38,7 +38,7 @@ export default function Portfolio() {
             link="https://github.com/5288TheSpartans/DeepSpace2019"
           >
             In the FIRST Robotics Competition (FRC), teams have six weeks to
-            build ~120 pound robots, that compete in an anual competition.
+            build ~120 pound robots, that compete in an annual competition.
             Here's the code we worked on for Spartan Robotics' 2019 robot. I'm
             responsible for the arm control algorithm which uses a sin feed
             forward along with PID to maintain the arm position.
@@ -84,7 +84,7 @@ export default function Portfolio() {
             link="https://www.chiefdelphi.com/t/tank-style-cvt-gearbox/358601/78"
             img="../CVT.png"
           >
-            Designed back in 2019, The goal of this porject was to design a
+            Designed back in 2019, The goal of this project was to design a
             continously variable transmition for use in the FIRST Robotics
             Compoetion. While prototypes where unsucessful, it was an amazing
             learning experience.
