@@ -22,7 +22,7 @@ export default function Home() {
           <a href="/Resumes" className="card">
             <h3>Resumes &rarr;</h3>
             <p>
-              Interested in my experience? Take a look at my past experienecs
+              Interested in my experience? Take a look at my past experiences
               across the fields of software, electrical and mechanical
               engineering!
             </p>
