@@ -6,6 +6,12 @@ import NavigationBar from "../components/NavigationBar";
 export default function Portfolio() {
   return (
     <div>
+      <NavigationBar></NavigationBar>
+
+
+
+
+
       <SubjectBox subject="Software">
         <ProjectCard
           projectName="Support Bot"

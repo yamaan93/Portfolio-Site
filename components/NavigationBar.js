@@ -1,10 +1,22 @@
+import Link from "next/link";
 import * as React from "react";
-import Box from "@mui/material/Box";
 
 export default function NavigationBar() {
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <p>test</p>
-    </Box>
+    <div className="flex bg-gray-800 min-h-[5em] mb-10 justify-start items-center">
+      <Link href="../">
+        <h2 className="text-white m-2 p-2 text-2xl hover:text-sky-300">Home</h2>
+      </Link>
+      <Link href="../Portfolio">
+        <h2 className="text-white m-2 p-2 text-2xl hover:text-sky-300">
+          Portfolio
+        </h2>
+      </Link>
+      <Link href="../Resumes">
+        <h2 className="text-white m-2 p-2 text-2xl hover:text-sky-300">
+          Resumes
+        </h2>
+      </Link>
+    </div>
   );
 }
