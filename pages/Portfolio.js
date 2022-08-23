@@ -24,7 +24,7 @@ export default function Portfolio() {
             projectName="Support Bot"
             projectType="Discord Chat bot - 2020"
             img="../supportbot pfp.png"
-            link="https://github.com/yamaan93/Engineering-Support-Bot"
+            link="/projects/SupportBot"
           >
             I created a discord bot to help first year engineering students
             manage their workload. It reads content from a community run task
