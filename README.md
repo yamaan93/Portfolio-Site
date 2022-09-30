@@ -4,6 +4,8 @@
 
 Based in React, using Next.js as the framework. Simple Portfolio Site for showcasing my projects!
 
+You can view the project live at https://www.yamaanbakir.com/ 
+
 ## Dependencies
 
 - Next.js
