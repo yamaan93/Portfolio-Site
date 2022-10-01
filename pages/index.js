@@ -20,8 +20,8 @@ export default function Home() {
         </p>
 
         <div className="grid">
-          <a href="/Resumes" className="card">
-            <h3>Resumes &rarr;</h3>
+          <a href="/Yamaan Bakir - Website Resume.pdf" className="card">
+            <h3>Resume &rarr;</h3>
             <p>
               Interested in my experience? Take a look at my past experiences
               across the fields of software, electrical and mechanical
