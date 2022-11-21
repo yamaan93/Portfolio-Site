@@ -12,9 +12,9 @@ export default function NavigationBar() {
           Portfolio
         </h2>
       </Link>
-      <Link href="../Resumes">
+      <Link href="../Yamaan Bakir - Website Resume.pdf">
         <h2 className="text-white m-2 p-2 text-2xl hover:text-sky-300">
-          Resumes
+          Resume
         </h2>
       </Link>
     </div>
