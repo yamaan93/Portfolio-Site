@@ -11,7 +11,7 @@ export default function Portfolio() {
         <SubjectBox subject="Software">
         <ProjectCard
             projectName="wikiNow"
-            projectType="Hack Western Co:here Award Winner!"
+            projectType="Hack Western - Co:here Award Winner!"
             img="../wikiHow_thumbnail.png"
             link="https://devpost.com/software/wikinow"
           >
