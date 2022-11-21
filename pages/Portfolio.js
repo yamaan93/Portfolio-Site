@@ -9,6 +9,16 @@ export default function Portfolio() {
       <NavigationBar></NavigationBar>
       <div className="flex flex-col">
         <SubjectBox subject="Software">
+        <ProjectCard
+            projectName="wikiNow"
+            projectType="Hack Western Co:here Award Winner!"
+            img="../wikiHow_thumbnail.png"
+            link="https://devpost.com/software/wikinow"
+          >
+            Have you ever been stuck on a daunting task? 
+            Perhaps you need a solution quickly, but there isn't a convenient tutorial ready for you? 
+            Sometimes you don't know wikiHow but you need answers wikiNow.
+          </ProjectCard>
           <ProjectCard
             projectName="Portfolio Site"
             projectType="This Website! - 2022"
