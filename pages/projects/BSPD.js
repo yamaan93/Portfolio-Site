@@ -51,11 +51,11 @@ export default function BSPD() {
           <h2 className="font-semibold underline text-2xl">The Desgin</h2>
           <img
             src="/bspd_sch.png"
-            className="w-[22rem] border shadow-lg inline m-1"
+            className="w-[28rem] border shadow-lg inline m-1"
           ></img>
           <img
             src="/bspd_pcb.png"
-            className="w-[22rem] border shadow-lg inline"
+            className="w-[28rem] border shadow-lg inline"
           ></img>
           <h2 className="font-semibold underline text-2xl">Lessons Learned</h2>
           <p className="">
